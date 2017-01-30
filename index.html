@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="LunchCheck">
+<head>
+	<title>Lunch Check</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div ng-controller="LunchCheckController">
+    Lunch: <input type="text" ng-class="{isvalid:validator}" ng-model="name">
+       <br>
+      <div id="msg">{{message}}</div>
+      <br>
+      <div id="alt">{{alert}}</div>
+   	
+
+   <input id="butt" type="button" value="Check if Too Much" ng-click="getMessage(name)" />
+   </div>
+</body>
+</html>

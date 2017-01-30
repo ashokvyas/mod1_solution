@@ -1,0 +1,25 @@
+#msg {
+	background-color: yellow;
+	width: 95px;
+	margin:5px;
+	text-align: center;
+}
+
+#alt {
+	background-color: red;
+	width: 200px;
+	margin: 5px;
+	text-align: center;
+
+}
+
+#butt {
+	border-radius: 50px;
+	background-color: green;
+    color: white;
+    border: green;
+
+}
+.isvalid{
+	border-color: red;
+}
